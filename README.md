@@ -2,7 +2,7 @@
 * Let's you delete a specific row 
 * Click on the calculate button and it will calculate the given input expense and will output the total cost of trip result.
 
-* Needs a little fixing : The delete cross is not there in the end of each row of output, I have tried but the cross doubles sign
+* Needs a little fixing : The delete cross is not there in the end of each row of output, I have tried but the cross sign doubles
 * as the row of output increases
 * Any fixes are welcome!
 * Thank you
