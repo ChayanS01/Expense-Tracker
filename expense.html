@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+    <div class="container">
+        <img id="expense-img" src="images/expensetracker.png" alt="">
+        <h2>Expense <span style="color: rgb(139, 6, 211);">Tracker</span></h2>
+        <form  id="expenseform">
+        <input type="text" id="description" placeholder="Expense Description" required>
+        <br>
+            <select id="category"required>
+                <option class="option-category" value="Food">Food</option>
+                <option class="option-category" value="Transportation">Transportation</option>
+                <option class="option-category" value="Utilities">Utilities</option>
+                <option class="option-category" value="Activities">Activities</option>
+                <option class="option-category" value="Other">Other</option>
+            </select><br>
+            <input type="number" id="amount" placeholder="Amount" required><br>
+            <input type="submit" value="Add Expense">
+            <input type="submit" id="totalAmount" value = "Calculate">
+
+        </form>
+        <h3 style="font-size: 25px;"><span style=" padding-bottom: 3px;
+            border-bottom-style: solid;
+            border-bottom-width: 3.1px;
+            width: fit-content;"><span style="color: rgb(67, 133, 255);">Expense</span> Summary</span></h3>
+        <table id="expenseTable">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Amount<span id="rupee-sign">&#8377;</span></th>
+                
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+    
+        
+      
+    <script src="expense.js"></script>
+</body>
+</html>
