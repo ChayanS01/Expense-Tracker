@@ -6,5 +6,5 @@
 * as the row of output increases
 * Any fixes are welcome!
 * Thank you
-![expense](https://github.com/user-attachments/assets/84a189b8-0c6c-4611-8a52-c0560b2c367a)
-![expense2](https://github.com/user-attachments/assets/3157d0db-eeec-433e-9390-40a0ffd5ff48)
+![screencapture-127-0-0-1-5500-expense-html-2024-10-01-17_21_13](https://github.com/user-attachments/assets/d05cca97-bbab-4b8a-8a1c-1ad2481e0124)
+![screencapture-127-0-0-1-5500-expense-html-2024-10-01-17_21_02](https://github.com/user-attachments/assets/7c0bed79-43c8-4ad2-837a-c0f6c7cb23eb)
